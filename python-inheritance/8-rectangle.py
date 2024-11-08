@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 # a class Rectangle that inherits from BaseGeometry
 """define a class Rectangle"""
 
