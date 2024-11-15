@@ -1,5 +1,4 @@
--- script that creates the MySQL server user 'user_0d_1'
-CREATE DATABASE IF NOT EXISTS hbtn_0d_2;
-CREATE USER IF NOT EXISTS 'user_0d_2'@'localhost' IDENTIFIED BY 'user_0d_2_pwd';
-GRANT SELECT ON hbtn_0d_2.* TO 'user_0d_2'@'localhost';
+-- Script that creates MySQL user user_0d_1 with full privileges
+CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
+GRANT ALL PRIVILEGES ON *.* TO 'user_0d_1'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
